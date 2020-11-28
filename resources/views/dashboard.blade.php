@@ -26,6 +26,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
 <!-- font-awesome-icons -->
 <link href="css/font-awesome.css" rel="stylesheet"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!-- //font-awesome-icons -->
 <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800" rel="stylesheet">
 </head>
@@ -296,48 +297,48 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					   <div class="agile_top_w3_grids">
 					          <ul class="ca-menu">
 									<li>
-										<a href="#">
-											
-											<i class="fa fa-building-o" aria-hidden="true"></i>
+										<a href="/profile">
+                                        <i class="fa fa-user" aria-hidden="true"></i>								
 											<div class="ca-content">
 												<h4 class="ca-main">16,808</h4>
-												<h3 class="ca-sub">New Companies</h3>
+												<h3 class="ca-sub">My Profile</h3>
 											</div>
 										</a>
 									</li>
 									<li>
-										<a href="#">
-										  <i class="fa fa-user" aria-hidden="true"></i>
+										<a href="/createEvent">
+										<i class="fa fa-plus" aria-hidden="true"></i>
 											<div class="ca-content">
 												<h4 class="ca-main one">26,808</h4>
-												<h3 class="ca-sub one">New Clients</h3>
+												<h3 class="ca-sub one">Create New Events</h3>
 											</div>
 										</a>
 									</li>
 									<li>
 										<a href="#">
-											<i class="fa fa-database" aria-hidden="true"></i>
+		
+											<i class="fa fa-calendar" aria-hidden="true"></i>
 											<div class="ca-content">
 											<h4 class="ca-main two">29,008</h4>
-												<h3 class="ca-sub two">New Projects</h3>
+												<h3 class="ca-sub two">All Events</h3>
 											</div>
 										</a>
 									</li>
 									<li>
-										<a href="#">
-											<i class="fa fa-tasks" aria-hidden="true"></i>
+										<a href="/updateProfile">
+										<i class="fa fa-id-card" aria-hidden="true"></i>
 											<div class="ca-content">
 												<h4 class="ca-main three">49,436</h4>
-												<h3 class="ca-sub three">Old Projects</h3>
+												<h3 class="ca-sub three">Update Profile</h3>
 											</div>
 										</a>
 									</li>
 										<li>
 										<a href="#">
-											<i class="fa fa-clone" aria-hidden="true"></i>
+										<i class="fa fa-envelope-open" aria-hidden="true"></i>
 											<div class="ca-content">
 												<h4 class="ca-main four">30,808</h4>
-												<h3 class="ca-sub four">New Orders</h3>
+												<h3 class="ca-sub four">Invite Requests</h3>
 											</div>
 										</a>
 									</li>
