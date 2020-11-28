@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Event</title>
-    <link href="css/new-event.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="{{asset('css/new-event.css')}}" rel="stylesheet" type="text/css" media="all">
 </head>
-<body
-    |   <section>
+<body>
+       <section>
                 <div class="content">
                     <h1> Events And Shows</h1>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.

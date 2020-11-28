@@ -13,5 +13,8 @@ class pagesController extends Controller
     public function updateProfile() {
         return view('update');
     }
+    public function newEvent() {
+        return view('new-event');
+    }
 
 }
