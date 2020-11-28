@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e5d9c2c-feed-45a5-8351-a9332d1ae025" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/css/all-events.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/invite.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/my-profile.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/new-event.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/update.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/all-events.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/invite.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/my-profile.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/new-event.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/update.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/new-event.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/new-event.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/new-event.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/new-event.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +51,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1606568295354</updated>
-      <workItem from="1606568298882" duration="4733000" />
+      <workItem from="1606568298882" duration="16737000" />
     </task>
     <servers />
   </component>
