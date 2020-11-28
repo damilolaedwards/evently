@@ -16,13 +16,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
 		function hideURLbar(){ window.scrollTo(0,1); } </script>
 <!-- //custom-theme -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/component.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/export.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/flipclock.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/circles.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style_grid.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link href="{{asset('css/bootstrap.css')}}" rel="stylesheet" type="text/css" media="all" />
+<link href="{{asset('css/component.css')}}" rel="stylesheet" type="text/css" media="all" />
+<link href="{{asset('css/export.css')}}" rel="stylesheet" type="text/css" media="all" />
+<link href="{{asset('css/flipclock.css')}}" rel="stylesheet" type="text/css" media="all" />
+<link href="{{asset('css/circles.css')}}" rel="stylesheet" type="text/css" media="all" />
+<link href="{{asset('css/style_grid.css')}}" rel="stylesheet" type="text/css" media="all" />
+<link href="{{asset('css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
 
 <!-- font-awesome-icons -->
 <link href="css/font-awesome.css" rel="stylesheet"> 
@@ -98,7 +98,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 									<li class="dropdown profile_details_drop">
 										<a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
 											<div class="profile_img">	
-												<span class="prfil-img"><img src="images/admin.jpg" alt=""> </span> 
+												<span class="prfil-img"><img src="{{asset('images/admin.jpg')}}" alt=""> </span> 
 											</div>	
 										</a>
 										<ul class="dropdown-menu drp-mnu">
@@ -748,10 +748,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
 
 	<!-- /amcharts -->
-				<script src="js/amcharts.js"></script>
-		       <script src="js/serial.js"></script>
-				<script src="js/export.js"></script>	
-				<script src="js/light.js"></script>
+				<script src="{{asset('js/amcharts.js')}}"></script>
+		       <script src="{{asset('js/serial.js')}}"></script>
+				<script src="{{asset('js/export.js')}}"></script>	
+				<script src="{{asset('js/light.js')}}"></script>
 				<!-- Chart code -->
 	 <script>
 var chart = AmCharts.makeChart("chartdiv", {
