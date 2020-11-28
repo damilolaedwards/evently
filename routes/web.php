@@ -20,7 +20,7 @@ Route::get('/', function () {
 
 Route::get('/profile', [pagesController::class , 'profile']);
 
-Route::get('/createEvent', [pagesController::class , 'createEvent']);
+Route::get('/createEvent', [pagesController::class , 'newEvent']);
 
 Route::get('/updateProfile', [pagesController::class , 'updateProfile']);
 
